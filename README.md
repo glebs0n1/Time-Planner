@@ -7,3 +7,11 @@ Tietoevry | Mėnuo su IT akademija | Namų užduotis
 <br>darbo apimtis (kiek valandų turėtų užtrukti),
 <br>terminas, iki kurio turiu pabaigti, 
 <br>užitų valandų skaičius per dieną.
+
+kad paleisti programa per POSTMAN - aš naudoju http://localhost:8081/report -POST METHOD- PARAMS BODY- RAW - JSON FORMAT 
+{
+  "hoursPerDay": 8,
+  "commuteTime": 30,
+  "vacationDays": 2
+}
+
