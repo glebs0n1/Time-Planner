@@ -17,10 +17,6 @@ import java.util.Random;
 @RestController
 public class ReportController {
 
-    public static void main(String[] args) {
-        SpringApplication.run(ReportController.class, args);
-    }
-
     @PostMapping("/report")
     public ReportResponse calculateReport(@RequestBody ReportRequest request) {
         ReportResponse response = new ReportResponse();
