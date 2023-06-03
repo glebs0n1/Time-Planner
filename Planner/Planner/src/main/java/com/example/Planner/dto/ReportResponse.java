@@ -7,8 +7,6 @@ public class ReportResponse {
     private String message;
     private List<BusyHours> busyHours;
 
-    // Add constructors, getters, and setters
-
     public String getMessage() {
         return message;
     }
@@ -29,7 +27,6 @@ public class ReportResponse {
         private LocalDate date;
         private int busyHours;
 
-        // Add constructors, getters, and setters
 
         public LocalDate getDate() {
             return date;
