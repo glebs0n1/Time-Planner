@@ -9,9 +9,9 @@ Tietoevry | Mėnuo su IT akademija | Namų užduotis
 <br>užitų valandų skaičius per dieną.
 
 kad paleisti programa per POSTMAN - aš naudoju http://localhost:8081/report -POST METHOD- PARAMS BODY- RAW - JSON FORMAT 
-{
-  "hoursPerDay": 8,
-  "commuteTime": 30,
-  "vacationDays": 2
-}
+<br>{
+ <br> "hoursPerDay": 8,
+  <br>"commuteTime": 30,
+  <br>"vacationDays": 2
+<br>}
 
