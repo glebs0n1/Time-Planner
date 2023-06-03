@@ -5,8 +5,6 @@ public class ReportRequest {
     private int commuteTime;
     private int vacationDays;
 
-    // Add constructors, getters, and setters
-
     public int getHoursPerDay() {
         return hoursPerDay;
     }
