@@ -42,7 +42,7 @@ public class ReportController {
         String completionStatus = determineCompletionStatus(totalAvailableHours, 80 * 24); // Update the amountOfWork in hours
         response.setMessage(completionStatus);
 
-        // Populate the busy hours list
+        // the busy hours list
         for (int i = 0; i < totalAvailableDays; i++) {
             LocalDate date = currentDate.plusDays(i);
             int busyHours = calculateBusyHoursForDate(date);
@@ -86,7 +86,7 @@ public class ReportController {
     }
 
     private int calculateSleepingHours(long totalAvailableDays) {
-        // Calculate total sleeping hours for the given number of days
+        //  total sleeping hours for the given number of days
         return (int) (8 * totalAvailableDays);
     }
 
@@ -101,7 +101,7 @@ public class ReportController {
     }
 
     private boolean isVacationDay(LocalDate date, int vacationDays) {
-        // Define the specific vacation days
+        //  the specific vacation days
         LocalDate vacationDay1 = LocalDate.of(2023, 6, 15);
         LocalDate vacationDay2 = LocalDate.of(2023, 6, 30);
         return date.equals(vacationDay1) || date.equals(vacationDay2);
